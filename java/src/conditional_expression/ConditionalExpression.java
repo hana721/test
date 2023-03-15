@@ -50,15 +50,13 @@ public class ConditionalExpression {
 
         int isTired = 0;
 		String study = "カリキュラム";
-		if (isTired == 1) {
+		if (isTired == 0) {
 			System.out.println("私はとても元気です。");
-			System.out.println("カリキュラムを続けます。");
 		}else {
 			System.out.println("私は疲れています。");
 			
-			System.out.println(isTired == 0 ? "私はとても元気です。\n" + "カリキュラムを続けます。" : "私は疲れています。");
 		}
-
+		System.out.println(isTired == 0 ? "カリキュラムを続けます。" : "");
 	}
 
 }
