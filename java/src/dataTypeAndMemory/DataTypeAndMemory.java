@@ -4,6 +4,7 @@ public class DataTypeAndMemory {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
+		//課題1-16
 		String x = "A";
 		System.out.printf(x);
 		
@@ -21,6 +22,8 @@ public class DataTypeAndMemory {
 		
 		int[] b = nums;
 	    b[1] = 8;
+	    
+	    System.out.println(nums[1]); 
 	    System.out.println(b[1]);
 	}
 
